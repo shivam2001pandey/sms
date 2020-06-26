@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="rest_api">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
+  <title>rest_api</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  
+  
+  <script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-analytics.js"></script>
+  
+  <script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDF7S24GecMsFX64xPfMhKsAGeJH3Kc75M",
+    authDomain: "flutter-web-af0e7.firebaseapp.com",
+    databaseURL: "https://flutter-web-af0e7.firebaseio.com",
+    projectId: "flutter-web-af0e7",
+    storageBucket: "flutter-web-af0e7.appspot.com",
+    messagingSenderId: "189233313954",
+    appId: "1:189233313954:web:76bd0d8b4ed012e3c7fffb",
+    measurementId: "G-N7LF5RF30G"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  //firebase.analytics();
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js');
+      });
+    }
+  </script>
+</body>
+</html>
