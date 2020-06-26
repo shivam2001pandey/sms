@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "761351399773",
+    "firebase_url": "https://futuresupport-bff0c.firebaseio.com",
+    "project_id": "futuresupport-bff0c",
+    "storage_bucket": "futuresupport-bff0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761351399773:android:791a108d2985fb01f220b4",
+        "android_client_info": {
+          "package_name": "com.example.rest_api"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761351399773-htvb3afvbbuie3n2ej2et6ggpdu2r6h9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgcQpKTU-Fx01F7ZB5fUJIQ12rvwG9FSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "761351399773-htvb3afvbbuie3n2ej2et6ggpdu2r6h9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
